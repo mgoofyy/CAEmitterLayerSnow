@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FCD719BF1BA4B240006D206D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD719BE1BA4B240006D206D /* AppDelegate.swift */; };
+		FCD719C11BA4B240006D206D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD719C01BA4B240006D206D /* ViewController.swift */; };
+		FCD719C41BA4B240006D206D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCD719C21BA4B240006D206D /* Main.storyboard */; };
+		FCD719C61BA4B240006D206D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCD719C51BA4B240006D206D /* Images.xcassets */; };
+		FCD719C91BA4B240006D206D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCD719C71BA4B240006D206D /* LaunchScreen.xib */; };
+		FCD719D51BA4B240006D206D /* granuleEffectsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD719D41BA4B240006D206D /* granuleEffectsTests.swift */; };
+		FCD719E31BA4B2CC006D206D /* MapleLeaf.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD719E21BA4B2CC006D206D /* MapleLeaf.swift */; };
+		FCD719E51BA4B31D006D206D /* bg2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FCD719E41BA4B31D006D206D /* bg2.jpg */; };
+		FCD719E71BA4B353006D206D /* fengye.png in Resources */ = {isa = PBXBuildFile; fileRef = FCD719E61BA4B353006D206D /* fengye.png */; };
+		FCD719E91BA4B70B006D206D /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FCD719E81BA4B70B006D206D /* bg.jpg */; };
+		FCD719EB1BA4B8A3006D206D /* flake.png in Resources */ = {isa = PBXBuildFile; fileRef = FCD719EA1BA4B8A3006D206D /* flake.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FCD719CF1BA4B240006D206D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCD719B11BA4B240006D206D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCD719B81BA4B240006D206D;
+			remoteInfo = granuleEffects;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FCD719B91BA4B240006D206D /* granuleEffects.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = granuleEffects.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCD719BD1BA4B240006D206D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCD719BE1BA4B240006D206D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FCD719C01BA4B240006D206D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FCD719C31BA4B240006D206D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FCD719C51BA4B240006D206D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FCD719C81BA4B240006D206D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FCD719CE1BA4B240006D206D /* granuleEffectsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = granuleEffectsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCD719D31BA4B240006D206D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCD719D41BA4B240006D206D /* granuleEffectsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = granuleEffectsTests.swift; sourceTree = "<group>"; };
+		FCD719E21BA4B2CC006D206D /* MapleLeaf.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapleLeaf.swift; sourceTree = "<group>"; };
+		FCD719E41BA4B31D006D206D /* bg2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg2.jpg; sourceTree = "<group>"; };
+		FCD719E61BA4B353006D206D /* fengye.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fengye.png; sourceTree = "<group>"; };
+		FCD719E81BA4B70B006D206D /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg.jpg; sourceTree = "<group>"; };
+		FCD719EA1BA4B8A3006D206D /* flake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flake.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCD719B61BA4B240006D206D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCD719CB1BA4B240006D206D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCD719B01BA4B240006D206D = {
+			isa = PBXGroup;
+			children = (
+				FCD719BB1BA4B240006D206D /* granuleEffects */,
+				FCD719D11BA4B240006D206D /* granuleEffectsTests */,
+				FCD719BA1BA4B240006D206D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCD719BA1BA4B240006D206D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCD719B91BA4B240006D206D /* granuleEffects.app */,
+				FCD719CE1BA4B240006D206D /* granuleEffectsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCD719BB1BA4B240006D206D /* granuleEffects */ = {
+			isa = PBXGroup;
+			children = (
+				FCD719E41BA4B31D006D206D /* bg2.jpg */,
+				FCD719EA1BA4B8A3006D206D /* flake.png */,
+				FCD719E81BA4B70B006D206D /* bg.jpg */,
+				FCD719E61BA4B353006D206D /* fengye.png */,
+				FCD719BE1BA4B240006D206D /* AppDelegate.swift */,
+				FCD719C01BA4B240006D206D /* ViewController.swift */,
+				FCD719E21BA4B2CC006D206D /* MapleLeaf.swift */,
+				FCD719C21BA4B240006D206D /* Main.storyboard */,
+				FCD719C51BA4B240006D206D /* Images.xcassets */,
+				FCD719C71BA4B240006D206D /* LaunchScreen.xib */,
+				FCD719BC1BA4B240006D206D /* Supporting Files */,
+			);
+			path = granuleEffects;
+			sourceTree = "<group>";
+		};
+		FCD719BC1BA4B240006D206D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FCD719BD1BA4B240006D206D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FCD719D11BA4B240006D206D /* granuleEffectsTests */ = {
+			isa = PBXGroup;
+			children = (
+				FCD719D41BA4B240006D206D /* granuleEffectsTests.swift */,
+				FCD719D21BA4B240006D206D /* Supporting Files */,
+			);
+			path = granuleEffectsTests;
+			sourceTree = "<group>";
+		};
+		FCD719D21BA4B240006D206D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FCD719D31BA4B240006D206D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCD719B81BA4B240006D206D /* granuleEffects */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCD719D81BA4B240006D206D /* Build configuration list for PBXNativeTarget "granuleEffects" */;
+			buildPhases = (
+				FCD719B51BA4B240006D206D /* Sources */,
+				FCD719B61BA4B240006D206D /* Frameworks */,
+				FCD719B71BA4B240006D206D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = granuleEffects;
+			productName = granuleEffects;
+			productReference = FCD719B91BA4B240006D206D /* granuleEffects.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FCD719CD1BA4B240006D206D /* granuleEffectsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCD719DB1BA4B240006D206D /* Build configuration list for PBXNativeTarget "granuleEffectsTests" */;
+			buildPhases = (
+				FCD719CA1BA4B240006D206D /* Sources */,
+				FCD719CB1BA4B240006D206D /* Frameworks */,
+				FCD719CC1BA4B240006D206D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCD719D01BA4B240006D206D /* PBXTargetDependency */,
+			);
+			name = granuleEffectsTests;
+			productName = granuleEffectsTests;
+			productReference = FCD719CE1BA4B240006D206D /* granuleEffectsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCD719B11BA4B240006D206D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = goofygao;
+				TargetAttributes = {
+					FCD719B81BA4B240006D206D = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					FCD719CD1BA4B240006D206D = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = FCD719B81BA4B240006D206D;
+					};
+				};
+			};
+			buildConfigurationList = FCD719B41BA4B240006D206D /* Build configuration list for PBXProject "granuleEffects" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCD719B01BA4B240006D206D;
+			productRefGroup = FCD719BA1BA4B240006D206D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCD719B81BA4B240006D206D /* granuleEffects */,
+				FCD719CD1BA4B240006D206D /* granuleEffectsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCD719B71BA4B240006D206D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCD719C41BA4B240006D206D /* Main.storyboard in Resources */,
+				FCD719EB1BA4B8A3006D206D /* flake.png in Resources */,
+				FCD719C91BA4B240006D206D /* LaunchScreen.xib in Resources */,
+				FCD719E71BA4B353006D206D /* fengye.png in Resources */,
+				FCD719E51BA4B31D006D206D /* bg2.jpg in Resources */,
+				FCD719E91BA4B70B006D206D /* bg.jpg in Resources */,
+				FCD719C61BA4B240006D206D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCD719CC1BA4B240006D206D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCD719B51BA4B240006D206D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCD719C11BA4B240006D206D /* ViewController.swift in Sources */,
+				FCD719BF1BA4B240006D206D /* AppDelegate.swift in Sources */,
+				FCD719E31BA4B2CC006D206D /* MapleLeaf.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCD719CA1BA4B240006D206D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCD719D51BA4B240006D206D /* granuleEffectsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FCD719D01BA4B240006D206D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCD719B81BA4B240006D206D /* granuleEffects */;
+			targetProxy = FCD719CF1BA4B240006D206D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FCD719C21BA4B240006D206D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCD719C31BA4B240006D206D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FCD719C71BA4B240006D206D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCD719C81BA4B240006D206D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCD719D61BA4B240006D206D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FCD719D71BA4B240006D206D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCD719D91BA4B240006D206D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = granuleEffects/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FCD719DA1BA4B240006D206D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = granuleEffects/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FCD719DC1BA4B240006D206D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = granuleEffectsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/granuleEffects.app/granuleEffects";
+			};
+			name = Debug;
+		};
+		FCD719DD1BA4B240006D206D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = granuleEffectsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/granuleEffects.app/granuleEffects";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCD719B41BA4B240006D206D /* Build configuration list for PBXProject "granuleEffects" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCD719D61BA4B240006D206D /* Debug */,
+				FCD719D71BA4B240006D206D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCD719D81BA4B240006D206D /* Build configuration list for PBXNativeTarget "granuleEffects" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCD719D91BA4B240006D206D /* Debug */,
+				FCD719DA1BA4B240006D206D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FCD719DB1BA4B240006D206D /* Build configuration list for PBXNativeTarget "granuleEffectsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCD719DC1BA4B240006D206D /* Debug */,
+				FCD719DD1BA4B240006D206D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCD719B11BA4B240006D206D /* Project object */;
+}
